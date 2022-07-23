@@ -30,3 +30,50 @@
     font-size: 42px;
     color: #fff;
 }
+.control{
+    display: flex;
+    justify-content: space-evenly;
+}
+.control .start_btn{
+    background-color: #6495ed;
+    padding: 10px 22px;
+    color: #fff;
+    font-size: 18px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+.control .reset_btn{
+    background-color: #fd0b03;
+    padding: 10px 22px;
+    color: #fff;
+    font-size: 18px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+.main_control{
+    display: flex;
+    justify-content: space-between;
+}
+.break_control .session_control , h2{
+    font-size: 22px;
+    font-weight: 700;
+    color: #363636;
+}
+.inner_break, .inner_session{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.count_num{
+    font-size: 20px;
+    font-weight: 700;
+    color: #ff6347;
+}

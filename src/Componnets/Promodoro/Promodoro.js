@@ -13,19 +13,25 @@ const Promodoro = () => {
           <h2>25:00</h2>
         </div>
         <div className="control">
-          <span>Pause</span>
-          <span>Reset</span>
+          <p className="start_btn">Start</p>
+          <p className="reset_btn">Reset</p>
         </div>
         <div className="main_control">
           <div className="break_control">
-            <AiOutlinePlus />
-            <span>5</span>
-            <AiOutlineMinus />
+            <h2>Break Length</h2>
+            <div className="inner_break">
+              <AiOutlinePlus size='20px' />
+              <span className="count_num">5</span>
+              <AiOutlineMinus size='20px' />
+            </div>
           </div>
           <div className="session_control">
-            <AiOutlinePlus />
-            <span>5</span>
-            <AiOutlineMinus />
+            <h2>Session Length</h2>
+            <div className="inner_session">
+              <AiOutlinePlus size='20px' />
+              <span className="count_num" >25</span>
+              <AiOutlineMinus  size='20px'/>
+            </div>
           </div>
         </div>
       </div>
