@@ -9,7 +9,7 @@ const Footer = () => {
       <p className={Styles.inner_footer}>
         Copyright © 2021 - {getYear} | All Right Reserved by{" "}
         <a
-          href="https://github.com/AhshanHabib26"
+          href="https://www.linkedin.com/in/ahshanhabib26/"
         >
           Ahshan Habib.
         </a>
