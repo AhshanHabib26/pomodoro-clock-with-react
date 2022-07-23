@@ -1,0 +1,13 @@
+.inner_footer{
+    margin-top: 30px;
+}
+.inner_footer a{
+    text-decoration: none;
+    color: #ff6347;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.inner_footer a:hover{
+    color: #6495ed;
+}
