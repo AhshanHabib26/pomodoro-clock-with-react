@@ -14,6 +14,7 @@
 .title h1{
     font-size: 28px;
     color: #363636;
+    user-select: none;
 }
 .display{
     background-color: #ff6347;
@@ -63,7 +64,7 @@
     justify-content: space-between;
 }
 .break_control .session_control , h2{
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 700;
     color: #363636;
     user-select: none;

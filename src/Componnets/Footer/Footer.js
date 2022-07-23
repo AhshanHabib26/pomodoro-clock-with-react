@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div>
       <p className={Styles.inner_footer}>
-        Copyright © 2021 - {getYear} | All Right Reserved by{" "}
+        Copyright © {getYear} - 2024 | All Right Reserved by{" "}
         <a
           href="https://www.linkedin.com/in/ahshanhabib26/"
         >
